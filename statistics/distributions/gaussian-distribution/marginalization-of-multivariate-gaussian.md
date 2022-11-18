@@ -577,3 +577,23 @@ and the mean $$\mu_a$$ of the marginalized distribution is actually just itself&
 $$
 \mu_a = \mu_a.
 $$
+
+Note that since
+
+$$
+\begin{bmatrix}
+        \Lambda_{aa} & \Lambda_{ab} \\
+        \Lambda_{ba} & \Lambda_{bb} \\
+    \end{bmatrix}^{-1}
+    =
+    \begin{bmatrix}
+        \Sigma_{aa} & \Sigma_{ab} \\
+        \Sigma_{ba} & \Sigma_{bb} \\
+    \end{bmatrix}.
+$$
+
+By using [Shurs complement](../../../linear-algebra/matrix-inverse/shurs-complement.md), we obtain the covariance matrix directly where
+
+$$
+\Sigma_{aa} = (\Lambda_{aa} - \Lambda_{ab}\Lambda_{bb}^{-1}\Lambda_{ba})^{-1}.
+$$

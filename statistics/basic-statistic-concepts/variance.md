@@ -15,7 +15,7 @@ Variance is a number that tells us if a data has a wide or narrow variation of n
 1. $$\mathbf{x} = {1,2,5,6,7,4,10}$$
 2. $$\mathbf{y} = {4,5,6,5.3,4.5,4.1,5.7}$$
 
-<figure><img src="../../.gitbook/assets/two_variances (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/two_variances.png" alt=""><figcaption></figcaption></figure>
 
 Visually, it is obvious that the dataset $$\mathbf{x}$$ has a much higher variability compare to $$\mathbf{y}$$, but unless we can quantify this variability, we can't really determine exactly how much more variation $$\mathbf{x}$$ has over $$\mathbf{y}$$. Therefore, the idea of variance is invented to quantity data variation. If we have some data $$X$$, we symbolically denote the variance of $$X$$ as $$Var[X]$$. By knowing this, it shouldn't be a surprise that&#x20;
 
