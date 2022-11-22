@@ -1,5 +1,16 @@
 # A Function is a Point in Space.
 
+## Key Concepts Covered here
+
+1. Basis functions
+2. Coefficients of the basis functions
+3. A function is a point in space
+4. Function class, Function Space, Hypothesis space
+
+
+
+## Function as a point in space
+
 If we look at the equation of a line&#x20;
 
 $$
