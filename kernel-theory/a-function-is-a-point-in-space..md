@@ -58,6 +58,8 @@ Notice that even after the basis functions are defined (assumed to be known), we
 Given that a set of basis functions is known, setting the coefficients defines exactly a function.&#x20;
 {% endhint %}
 
-While the previous statement may seem obvious, it actually has significant implications.&#x20;
+While the previous statement may seem obvious, it actually has significant implications. Instead of looking at functions as something you plug a value in, we can view functions as a point in space as we define the coefficients. Using the linear function as an example, since choosing a value for $$(a,b)$$ give us a unique function, then every point in a 2d space is itself a function. We can visualize this idea with the plot below. On the left, it shows 3 potential points that to define $$(a,b)$$, and consequently, define 3 distinct linear functions. On the right side, we draw the actual function of lines that corresponds to the colors of the points. &#x20;
 
 <figure><img src="../.gitbook/assets/function_space.png" alt=""><figcaption></figcaption></figure>
+
+Understanding this perspective on function, by initially defining the **basis functions**, it allows us to represent distinct functions as points in space.&#x20;
