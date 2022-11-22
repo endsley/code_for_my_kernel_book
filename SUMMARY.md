@@ -32,3 +32,5 @@
   * [Logistic Regression](basic-ml-algorithms/logistic-regression.md)
 * [Kernel Theory](kernel-theory/README.md)
   * [A Function is a Point in Space.](kernel-theory/a-function-is-a-point-in-space..md)
+* [Kernel Methods](kernel-methods/README.md)
+  * [Gaussian Process](kernel-methods/gaussian-process.md)
