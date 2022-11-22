@@ -78,19 +78,19 @@ Following this new understanding of functions, we go back to the problem of line
 
 <figure><img src="../.gitbook/assets/regress.png" alt=""><figcaption><p>Figure 2</p></figcaption></figure>
 
-In linear regression, we are forming a **hypothesis** that the **function class is within the basis functions of**&#x20;
+In linear regression, we are forming a **hypothesis** that by using the **basis functions of**&#x20;
 
 $$
 \phi_1(x)= x, \quad \phi_2(x)=1,
 $$
 
-and that the target function, $$f^*$$, that fits the data is within this 2d function space. If $$f^*$$ is actually within our **hypothesis space,** we would say that $$f^*$$ is an element of $$\mathcal{H}$$, symbolically denoted as
+the target function, $$f^*$$, is within this 2d function space. If $$f^*$$ is actually within our **hypothesis space,** we would say that $$f^*$$ is an element of $$\mathcal{H}$$, symbolically denoted as
 
 $$
 f^* \in \mathcal{H}.
 $$
 
-Of course, just because we have chosen the basis functions, it doesn't guarantee that our hypothesis space contains the target function. The linear regression shown in Figure 2 is an example where $$f^* \in \mathcal{H}$$. Now we will show you a 2nd example where the target function is outside of our hypothesis where $$f^* \not\in \mathcal{H}$$.&#x20;
+Of course, just because we have chosen the basis functions, it is just a hypothesis, a best guess. It doesn't guarantee that our hypothesis space will contain the target function. The linear regression shown in Figure 2 is an example where $$f^* \in \mathcal{H}$$. Now we will show you a 2nd example where the target function is outside of our hypothesis where $$f^* \not\in \mathcal{H}$$.&#x20;
 
 
 
