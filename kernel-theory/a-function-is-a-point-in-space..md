@@ -58,3 +58,4 @@ Notice that even after the basis functions are defined (assumed to be known), we
 Given that a set of basis functions is known, setting the coefficients defines exactly a function.&#x20;
 {% endhint %}
 
+While the previous statement may seem obvious, it actually has significant implications.&#x20;
