@@ -59,3 +59,5 @@ Given that a set of basis functions is known, setting the coefficients defines e
 {% endhint %}
 
 While the previous statement may seem obvious, it actually has significant implications.&#x20;
+
+<figure><img src="../.gitbook/assets/function_space.png" alt=""><figcaption></figcaption></figure>
