@@ -27,7 +27,9 @@ $$
 \phi_1(x) = x \quad \phi_2(x) = 1    .
 $$
 
-We call the set of functions $$\{ \phi_1, \phi_2, ... \}$$ that construct $$f$$ as the **basis functions**. Here, a line is really just a combination of two basis functions. These functions are very important because depending on the choice of these functions, we can construct vastly different shapes. For example, given a function of a parabola
+We call the set of functions $$\{ \phi_1, \phi_2, ... \}$$ that construct $$f$$ as the **basis functions,** and we call the constant values in front of the basis functions as the **coefficients**.
+
+Here, a line is really just a combination of two basis functions. These functions are very important because depending on the choice of these functions, we can construct vastly different shapes. For example, given a function of a parabola
 
 $$
 f(x) = a x^2 + bx + c.
@@ -43,3 +45,16 @@ $$
 $$
 
 where $$\phi_1(x) = x^2 , \phi_2(x) = x , \phi_3(x) = 1$$.
+
+Now, let's return our attention back to the line
+
+$$
+f(x) = a \phi_1(x) + b \phi_2(x).
+$$
+
+Notice that even after the basis functions are defined (assumed to be known), we still don't know the exact line unless we also define the coefficients $$(a,b)$$. This is the key insight we hope you will take away.&#x20;
+
+{% hint style="info" %}
+Given that a set of basis functions is known, setting the coefficients defines exactly a function.&#x20;
+{% endhint %}
+
