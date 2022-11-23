@@ -103,13 +103,7 @@ $$
 
 Of course, just because we have chosen the basis functions, it is just a hypothesis, a best guess. It doesn't guarantee that our hypothesis space will contain the target function. The linear regression shown in Figure 2 is an example where $$f^* \in \mathcal{H}$$. Now we will show you a 2nd example where the target function is outside of our hypothesis where $$f^* \not\in \mathcal{H}$$.&#x20;
 
-Let's assume that we have a target function
 
-$$
-f^*(x) = c x^2 + b x + a,
-$$
-
-where the basis functions are&#x20;
 
 &#x20;
 
