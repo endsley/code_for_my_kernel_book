@@ -10,12 +10,12 @@ import wplotlib
 import wuml
 import numpy as np
 
-x = np.arange(0, 5, 0.1)
+x = np.arange(0, 5, 0.05)
 y = 3*np.exp(-x)*np.sin(10*x) + 3
 x2 = np.arange(0, 5, 0.5)
 y2 = 3*np.exp(-x2)*np.sin(10*x2) + 3
 
-x3 = np.arange(0, 20, 0.5)
+x3 = np.arange(0, 20, 0.05)
 y3 = 20*np.exp(-x3/10)
 
 x4 = np.arange(0, 20, 1)
